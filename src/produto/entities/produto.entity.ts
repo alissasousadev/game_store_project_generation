@@ -1,4 +1,5 @@
-import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
+import { Categoria } from '../../categoria/entities/categoria.entity';
 
 @Entity({ name: 'tb_produto' })
 export class Produto {
@@ -14,4 +15,9 @@ export class Produto {
 
   @Column({ length: 255, nullable: false })
   descricao: string;
+
+   @ManyToOne(() => Categoria, (categoria) => categoria.produto, {
+    onDelete: 'CASCADE',
+})
+categoria: Categoria;
 }

@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 Visão Geral
+## Visão Geral
 
 Este projeto representa o desenvolvimento de uma **API RESTful para uma Loja de Games**, permitindo o gerenciamento de **Categorias** e **Produtos**, com relacionamento entre as entidades e validações de regras de negócio.
 
@@ -28,7 +28,7 @@ Este projeto representa o desenvolvimento de uma **API RESTful para uma Loja de 
 
 ---
 
-## 🧠 Conceitos Aplicados
+## Conceitos Aplicados
 
 - ✔ Arquitetura em camadas (**Controller, Service, Entity**)
 - ✔ Relacionamento **OneToMany / ManyToOne**
@@ -39,7 +39,7 @@ Este projeto representa o desenvolvimento de uma **API RESTful para uma Loja de 
 
 ---
 
-## 🛠️ Stack Tecnológica
+## Stack Tecnológica
 
 <div align="center">
   
@@ -56,7 +56,7 @@ Este projeto representa o desenvolvimento de uma **API RESTful para uma Loja de 
 ---
 </div>
 
-## 🏗️ Arquitetura do Projeto
+## Arquitetura do Projeto
 
 O projeto segue a arquitetura padrão do **NestJS**, separando responsabilidades em camadas do sistema:
 
@@ -66,7 +66,7 @@ O projeto segue a arquitetura padrão do **NestJS**, separando responsabilidades
 
 ---
 
-## 📊 Diagrama de Classes (UML) / DER
+## Diagrama de Classes (UML) / DER
 
 O diagrama abaixo representa o **modelo de dados da aplicação**, evidenciando as entidades
 **Categoria** e **Produto**, além do relacionamento entre elas.
@@ -75,7 +75,7 @@ O diagrama abaixo representa o **modelo de dados da aplicação**, evidenciando 
   <img src="./docs/diagrama-classes-der-loja-games.png.png" alt="Diagrama de Classes / DER" />
 </div>
 
-### 🔗 Relacionamento entre Entidades
+### Relacionamento entre Entidades
 
 - **Categoria** → OneToMany → **Produto**
 - **Produto** → ManyToOne → **Categoria**
@@ -85,7 +85,7 @@ O diagrama abaixo representa o **modelo de dados da aplicação**, evidenciando 
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 <div align="center">
 
@@ -101,7 +101,7 @@ O diagrama abaixo representa o **modelo de dados da aplicação**, evidenciando 
 ---
 </div>
 
-## 🔐 Validações & Regras de Negócio
+## Validações & Regras de Negócio
 
 - ✔ Validação de campos obrigatórios
 - ✔ Evita duplicidade no **create** e **update**
@@ -110,7 +110,7 @@ O diagrama abaixo representa o **modelo de dados da aplicação**, evidenciando 
 
 ---
 
-## 🧪 Testes
+## Testes
 
 Os testes foram realizados com o **Insomnia**, validando:
 
@@ -121,7 +121,7 @@ Os testes foram realizados com o **Insomnia**, validando:
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 ```bash
 # Clonar o repositório

@@ -135,3 +135,15 @@ npm install
 
 # Executar a aplicação
 npm run start:dev
+
+```
+
+###
+
+<div align="center">
+  <p>
+    <em>
+      Projeto desenvolvido com fins educacionais, no contexto da formação oferecida pela <strong>Generation Brasil</strong>.
+    </em>
+  </p>
+</div>

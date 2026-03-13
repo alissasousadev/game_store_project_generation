@@ -125,13 +125,12 @@ Os testes foram realizados com o **Insomnia**, validando:
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/alissasousadev/game-store-backend.git
 
 # Instalar dependências
 npm install
 
 # Configurar o banco de dados
-# Ajustar variáveis de ambiente (.env ou ormconfig)
 
 # Executar a aplicação
 npm run start:dev
